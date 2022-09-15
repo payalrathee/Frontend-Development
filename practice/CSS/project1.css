@@ -1,0 +1,31 @@
+#dots
+{
+    length:30px;
+    width:30px;
+}
+#profile
+{
+    length:45px;
+    width:45px;
+}
+
+#div1
+{
+    text-align: right;
+}
+#div2
+{
+    text-align:center;
+    height:300px;
+    
+    
+}
+#google
+{
+    vertical-align:bottom;
+}
+#search
+{
+    width:400px;
+    height:30px;
+}

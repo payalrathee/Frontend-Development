@@ -1,0 +1,24 @@
+#main
+{
+    border: solid 2px black;
+    box-shadow:0px 0px 5px black;
+}
+#main .one
+{
+    background-color:wheat;
+}
+
+#main>.one
+{
+    background-color: lightcoral;
+}
+
+.one+.one
+{
+    border: dotted 1px black;
+}
+
+.one~.one
+{
+    text-decoration: line-through;
+}

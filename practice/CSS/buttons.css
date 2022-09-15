@@ -1,0 +1,10 @@
+input:hover{
+    background-color:blue ;
+    outline: none;
+    opacity:0.8;
+    cursor:not-allowed;
+}
+input{
+    background-color:blue;
+    outline: none;
+}

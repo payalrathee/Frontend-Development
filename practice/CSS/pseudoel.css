@@ -1,0 +1,28 @@
+p::first-letter
+{
+    background-color:lightcoral;
+}
+
+p::after
+{
+    content:"abc'";
+    color:red;
+    background-color:wheat;
+}
+
+p::before
+{
+    content:'\'abc';
+    color:red;
+}
+
+p::first-line
+{
+    text-decoration:underline;
+}
+
+p::selection
+{
+    color:green;
+    background-color: lawngreen;
+}

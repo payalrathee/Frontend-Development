@@ -1,0 +1,63 @@
+article p{
+    background-color: lavender;
+}
+article>p{
+    border: 2px solid purple;
+}
+p+div{
+    border:2px solid pink;
+}
+p+p
+{
+    text-decoration: line-through;
+}
+div~p
+{
+    color:red;
+}
+p~p
+{
+    background-color: yellow;
+}
+div p:last-child
+{
+    color:green;
+}
+div p:first-child
+{
+    color:blue;
+}
+article p:first-child
+{
+    text-transform:uppercase;
+}
+article p:first-of-type
+{
+    font-style: italic;
+}
+article h1:first-child
+{
+    letter-spacing: -2px;
+}
+
+h1::after
+{
+    content:'abc';
+}
+
+h1::first-letter
+{
+    color:red;
+}
+h1::before
+{
+    content:'xyz';
+}
+article p:nth-child(2)::first-line
+{
+    letter-spacing: -1px;
+}
+h1::selection
+{
+    background-color:green;
+}

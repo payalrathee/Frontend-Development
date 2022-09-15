@@ -1,0 +1,18 @@
+body
+{
+    /* background-color: rgba(256,0,0,0.6); */
+
+    /* background-image:url("image1.jpg");
+    background-repeat:no-repeat;
+    background-size:1000px 1000px;
+    /*background-attachment:fixed; 
+    background-position:100px 500px; */
+
+    /* background:linear-gradient(45deg,rgba(255,0,0.6),coral,wheat,red,brown); */
+    /* background:linear-gradient(180deg,darkviolet,purple,pink,orange,yellow,green,darkgreen); */
+    background:radial-gradient(circle at top left,red,orange,yellow);
+    background-repeat:no-repeat;
+    background-position:top left;
+
+    
+}

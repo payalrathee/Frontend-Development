@@ -1,0 +1,59 @@
+article
+{
+    width:80%;
+    box-shadow:0px 0px 5px black;
+    padding:10px;
+}
+h1,h3
+{
+    text-align: center;
+}
+
+/*descendant:
+        all the paragraphs that are descendants of article elements */
+article p
+{
+    background-color: lightcoral;
+}
+
+/* child:
+        all the direct descendants paras of article*/
+article>p
+{
+    background-color: wheat;
+}
+
+/* adjacent sibling:
+        the adjacent sibling para of div*/
+div+p
+{
+    background-color: lightseagreen;
+}
+
+/* as adjacent sibling of div is para and not h3 therefore this is ignored*/
+div+h3
+{
+    background-color: lime;
+}
+
+/* general sibling:
+        all the sibling paras appearing after div*/
+div~p,div~h3
+{
+    text-decoration:line-through;
+}
+
+h1~p
+{
+    color:red;
+}
+
+h3~h3
+{
+    color:blue;
+}
+
+p~p
+{
+    border: dotted 2px black; 
+}

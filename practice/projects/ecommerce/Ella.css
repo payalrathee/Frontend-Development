@@ -1,0 +1,125 @@
+#wrapper
+{
+}
+body{
+    overflow-x:hidden;
+}
+#header
+{
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    top:0px;
+    z-index: 1;
+}
+#name-wrapper
+{
+    width:10%;
+    margin: auto;
+}
+#name
+{
+    color:black;
+    padding:4px;
+    margin:10px;
+    font-size: 35px;
+    font-family: 'Prompt', sans-serif;
+}
+#navbar
+{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content: center;
+    height:38px;
+}
+.menu-item
+{
+    text-decoration: none;
+    padding:0px 5px;
+    margin:5px 10px;
+    color:rgb(231, 121, 139);
+    position: relative;
+    top:8px;
+}
+.menu-item:hover
+{
+    color:rgb(219, 26, 58);
+}
+#signup
+{
+    position:absolute;
+    right:20px;
+}
+
+#main
+{
+    width:100%;
+    /* background-color: blueviolet; */
+    position: absolute;
+    top:93px;
+}
+#mainimg-wrapper
+{
+    width:90%;
+    height:500px;
+    margin:auto;
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#shopnow
+{
+    text-decoration: none;
+    background-color: rgb(235, 66, 117);
+    color:white;
+    border-radius: 3px;
+    padding:10px 20px;
+    position: relative;
+    top:80px;
+}
+#shopnow:hover{
+    background-color: rgb(231, 112, 148);
+    box-shadow: 0px 0px 5px rgb(247, 44, 105);
+}
+
+
+#items-wrapper
+{
+    width:70%;
+    margin:auto;
+}
+.items
+{
+    display: inline-block;
+    width:180px;
+    height: 250px;
+    margin:10px;
+    border-radius: 5px;
+    box-shadow:0px 0px 5px #aaa;
+}
+.items:hover
+{
+    box-shadow:0px 0px 8px rgb(4, 49, 51);
+}
+.img
+{
+    border-radius: 5px;
+    height:100%;
+    width:100%;
+}
+
+
+
+
+
+/* #footer
+{
+    width:100%;
+    background-color: aqua;
+    position: fixed;
+    bottom:0px;
+    left:0px;
+} */

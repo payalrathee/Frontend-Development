@@ -1,0 +1,41 @@
+body{
+    padding:3%;
+    background-color: rgb(248, 237, 239);
+}
+#update-panel
+{
+    box-sizing: border-box;
+    display: inline-block;
+    width:29%;
+    height:88vh;
+    /* background-color: aqua; */
+    vertical-align: top;
+    padding:5px;
+    margin:1px;
+    box-shadow: 0px 0px 3px #aaa;
+    background-color: white;
+    border-radius: 5px;
+}
+.panel
+{
+    display: block;
+    box-sizing: border-box;
+    box-shadow:0px 0px 3px #aaa;
+    padding:5px;
+    margin: 10px;
+    height:48%;
+}
+#shop-panel
+{
+    display: inline-block;
+    width:69%;
+    height:88vh;
+    /* background-color: blueviolet; */
+    vertical-align: top;
+    padding:5px;
+    box-sizing: border-box;
+    margin:1px;
+    box-shadow: 0px 0px 3px #aaa;
+    background-color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,39 @@
+article>p:first-child
+{
+    color:red;
+}
+
+article>p:last-child
+{
+    text-decoration:underline;
+}
+
+article>p:nth-last-child(2)
+{
+    background-color:wheat;
+}
+
+article>p:nth-last-child(4)
+{
+    background-color:lightcoral;
+}
+
+article>p:nth-child(2)
+{
+    text-decoration: line-through;
+}
+
+p:first-child
+{
+    border:dotted 1px black;
+}
+
+p:only-child
+{
+    box-shadow:0px 0px 5px black;
+}
+
+p:last-of-type
+{
+    background-color:gray;
+}

@@ -1,0 +1,36 @@
+.box
+{
+    width:30%;
+    height:200px;
+    margin:10px;
+    background-color:lavender;
+    /* overflow:auto; */
+}
+h1{
+    /* font-size:20px; */
+    /* height:100px; */
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+p{
+    word-break:keep-all;
+    word-wrap:break-word;
+}
+#box2
+{
+    /* background: linear-gradient(0deg,purple,pink); */
+    width:300px;
+    background: radial-gradient(circle,rgb(133, 59, 133),pink);
+}
+body{
+    /* height:10000px; */
+    /* background-color: rgba(10,255,230,0.5); */
+    /* background-image: url('travel2.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: bottom right; */
+    /* background-attachment: fixed; */
+    /* background: linear-gradient( 45deg,purple,pink); */
+    
+}

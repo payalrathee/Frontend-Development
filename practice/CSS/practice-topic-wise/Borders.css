@@ -1,0 +1,29 @@
+#heading
+{
+    color:purple;
+}
+.box
+{
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    line-height: 20px;
+    padding:5px;
+    margin:5px;
+    background-color: rgb(215, 226, 230);
+
+    /* border-style:dotted;
+    border-color:pink;
+    border-width: 2px;
+    border-radius: 10px; */
+
+    border:2px dotted pink;
+    border-radius: 10px;
+
+    /* border-right:2px dashed blue;
+    border-left:5px double green;
+    border-top:3px groove orange;
+    border-bottom:5px groove red;
+
+    border:5px outset gray; */
+
+}

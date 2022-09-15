@@ -1,0 +1,24 @@
+h1
+{
+    color:red;
+    letter-spacing: 4px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    text-decoration:underline;
+    text-decoration: overline;
+    text-transform:uppercase
+}
+p
+{
+    color:blue;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:italic;
+}

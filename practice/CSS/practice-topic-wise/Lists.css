@@ -1,0 +1,13 @@
+ul{
+    /* list-style-type: square;
+    list-style-position: inside;
+    list-style-image: url("logo.jpg"); */
+
+    list-style:square inside url('logo.jpg');
+    
+}
+.items
+{
+    margin:5px;
+    padding: 3px;
+}

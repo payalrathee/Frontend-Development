@@ -1,0 +1,27 @@
+body{
+    height: 10000px;
+}
+#div1
+{
+    width:100px;
+    height:100px;
+    background-color: lavender;
+    position:fixed;
+    bottom:0px;
+    right:0px;
+}
+#div2
+{
+    width:100px;
+    height:100px;
+    background-color: lavender;
+}
+#div3
+{
+    width:100px;
+    height:100px;
+    background-color: lavender;
+    position:sticky;
+    top:500px;
+    left:100px;
+}

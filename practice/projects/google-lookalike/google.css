@@ -1,0 +1,163 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar
+{
+    height:100px;
+    width:100%;
+}
+.menu-item
+{
+    margin:3px 10px;
+    float:right;
+}
+#dp
+{
+    width:30px;
+    height:30px;
+}
+#menu
+{
+    width:25px;
+    height:25px;
+}
+
+.text-item
+{
+    color:rgba(0,0,0,0.87);
+    font-size:13px;
+    text-decoration: none;
+}
+.text-item:hover
+{
+    text-decoration: underline;
+}
+#images
+{
+    margin:8px 10px;
+}
+#gmail
+{
+    margin:8px 10px;
+}
+main
+{
+    margin-top:6%;
+}
+#main
+{
+    /* background-color: green; */
+    width:40%;
+    margin:auto;
+    padding:10px;
+    position:relative;
+}
+#googleLogo
+{
+    display:block;
+    margin:auto;
+    margin-bottom:5px;
+    padding:10px;
+
+}
+form
+{
+    /* background-color: yellow; */
+    width:300px;
+    margin:auto;
+    padding:10px;
+}
+#search
+{
+    width:100%;
+    height:30px;
+    border:none;
+    border-radius: 20px;
+    margin-bottom:10px;
+    box-shadow:0px 0px 3px rgb(172, 168, 168);
+}
+#search:hover
+{
+    box-shadow:0px 0px 6px rgb(151, 148, 148);
+}
+#search:focus
+{
+    box-shadow:0px 0px 6px rgb(151, 148, 148);
+}
+#speech
+{
+    height:20px;
+    width:20px;
+    position: absolute;
+    top:208px;
+    right:30px;
+}
+#form
+{
+    /* background-color: red; */
+    width:20%;
+    margin:auto;
+}
+.button
+{
+    height:30px;
+    border:none;
+    border-radius: 3px;
+    margin: 0px 5px;
+    padding:8px;
+    background-color: rgb(226, 220, 220);
+}
+.button:hover{
+    border:1px solid rgb(177, 174, 174);
+    box-shadow: 0px 0px 3px rgb(175, 171, 171);
+}
+#menu-wrapper
+{
+    /* background-color: red; */
+    display:inline-block;
+    float:right;
+    width:27%;
+    /* clear:right; */
+}
+#dropdown
+{
+    /* background-color: yellow; */
+    box-shadow: 0px 0px 6px rgb(180, 176, 176);
+    width:100%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: none;
+    /* height:300px; */
+}
+#menu-wrapper:hover #dropdown
+{
+    display:block;
+}
+.dropdownItem
+{
+    /* background-color: red; */
+    display:inline-block;
+    height:70px;
+    width:70px;
+    margin:5px;
+    padding:5px;
+    color:rgba(0,0,0,0.7);
+    text-align: center;
+}
+.dropdownItem:hover
+{
+    border:1px solid rgb(209, 201, 201);
+    border-radius: 5px;
+}
+.logo
+{
+    height:40px;
+    width:40px;
+    /* margin-bottom:10px; */
+}
+.shift
+{
+    /* border:1px solid red; */
+    position: relative;
+    left:280px;
+}

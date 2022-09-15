@@ -1,0 +1,32 @@
+img{
+    background-color: aqua;
+    height:200px;
+    width:200px;
+    float:left;
+
+
+}
+div{
+    background-color: wheat;
+    width:300px;
+    display: inline-block;
+    clear:left;
+}
+p{
+    background-color: rgb(228, 176, 127);
+    
+}
+h1{
+    background-color: rgb(163, 141, 184);
+    
+}
+  
+#two
+{
+    
+    height:100px;
+}
+#div2
+{
+    float:left;
+}

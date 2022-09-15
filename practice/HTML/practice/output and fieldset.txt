@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+      <fieldset>
+        <legend>Sum</legend>
+      <label for="a">Enter a</label>
+      <input id="a"><br>
+      <label for="b">Enter b</label>
+      <input id="b"><br>
+      <label>Output</label>
+      <output id="x" for="a b">
+        </fieldset>
+      </output>
+    </form>
+  </body>
+</html>
